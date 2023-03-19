@@ -1,3 +1,10 @@
+import MyHead from "@/components/myhead"
+
 export default function About() {
-    return <h1>About</h1>
+    return (
+        <>
+            <MyHead title="About"/>
+            <h1>About</h1>
+        </>
+    )
 }
