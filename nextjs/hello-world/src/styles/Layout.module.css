@@ -1,0 +1,7 @@
+.container {
+    background-color: #fff;
+    color: #000;
+    min-height: 60vh;
+    padding: 1.25rem;
+    text-align: center;
+}
