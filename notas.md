@@ -36,7 +36,7 @@ _app (https://dev.to/guiselair/criando-um-layout-persistente-em-nextjs-1g8m)
         2 elementos "pais" (no caso aqui seria as divs).
 
 # Propriedade children
-    Ela automaticamente irá entender que algum conreudo irá no meio do
+    Ela automaticamente irá entender que algum conteudo irá no meio do
     componente
 
 # npm-check (https://github.com/dylang/npm-check)
