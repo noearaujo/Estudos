@@ -6,7 +6,10 @@ export default function Home() {
   return (
     <>
       <MyHead title="Hello World" />
-      <h1 className={styles.title}>Hello World</h1>
+      <div>
+        <h1 className={styles.title}>Hello World</h1>
+        <Image src="/images/city.jpg" alt='Cidade anoite' width={200} height={280} />
+      </div>
     </>
   )
 }
