@@ -5,10 +5,10 @@ import styles from "@/styles/Navbar.module.css";
 export default function Navbar() {
     return (
         <nav className={styles.navbar}>
-            <di className={styles.logo}>
+            <Link href={"/"}className={styles.logo}>
                 <Image src={"/images/pokeball.png"} width={30} height={30} alt="PokeNext" />
-                <h1>PokeNext</h1>
-            </di>
+                <h1>Poke<span>Next</span></h1>
+            </Link>
             <ul className={styles.menu}>
                 <li>
                     <Link href={"/"}>Home</Link>

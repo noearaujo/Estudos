@@ -24,7 +24,7 @@ export default function Home({pokemons}) {
   return (
     <>
       <CustomHead title="Home"/>
-      <ul>
+      <ul className={styles.pokemon_container}>
         {
           pokemons.map((pokemons) => (
             <li key={pokemons.id}>{pokemons.name}</li>

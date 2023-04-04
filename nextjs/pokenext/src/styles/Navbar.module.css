@@ -9,6 +9,8 @@
 }
 
 .logo {
+    color: #FFF;
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +18,10 @@
 
 .logo h1 {
     margin-left: 0.5em;
+}
+
+.logo h1 span{
+    color: #f00;
 }
 
 .menu {
