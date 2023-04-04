@@ -1,9 +1,11 @@
+import CustomHead from "@/components/customhead"
 import styles from "@/styles/Home.module.css"
 
 export default function Home() {
   return (
     <>
-      <h1>PokeNext</h1>
+      <CustomHead title="Home"/>
+      <p>Olá</p>
     </>
   )
 }
