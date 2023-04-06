@@ -1,3 +1,4 @@
+import Card from "@/components/card"
 import CustomHead from "@/components/customhead"
 import styles from "@/styles/Home.module.css"
 
@@ -26,8 +27,8 @@ export default function Home({pokemons}) {
       <CustomHead title="Home"/>
       <div className={styles.pokemon_container}>
         {
-          pokemons.map((pokemons) => (
-            <p key={pokemons.id}>{pokemons.name}</p>
+          pokemons.map((pokemon) => (
+            <Card key={pokemon.id} pokemon={pokemon} />
           ))
         }
       </div>
