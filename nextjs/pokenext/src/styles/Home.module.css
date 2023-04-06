@@ -1,9 +1,12 @@
 .pokemon_container {
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
     justify-content: space-between;
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
+}
+
+.pokemon_container p {
+    line-height: 0;
 }

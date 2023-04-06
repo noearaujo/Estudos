@@ -24,13 +24,13 @@ export default function Home({pokemons}) {
   return (
     <>
       <CustomHead title="Home"/>
-      <ul className={styles.pokemon_container}>
+      <div className={styles.pokemon_container}>
         {
           pokemons.map((pokemons) => (
-            <li key={pokemons.id}>{pokemons.name}</li>
+            <p key={pokemons.id}>{pokemons.name}</p>
           ))
         }
-      </ul>
+      </div>
     </>
   )
 }
