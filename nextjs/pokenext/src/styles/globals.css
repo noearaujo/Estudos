@@ -12,6 +12,13 @@
 body {
     font-size: 1.6rem;
 }
+
 main {
     min-height: 70vh;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
